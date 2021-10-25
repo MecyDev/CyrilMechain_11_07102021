@@ -1,0 +1,401 @@
+@media (min-width: 576px) {
+  body {
+    width: 540px;
+  }
+
+  .nav-main__link {
+    text-transform: capitalize;
+  }
+
+  .banner h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 2.4rem;
+    margin-left: 0;
+  }
+
+  .listAppart {
+    background: #f7f7f7;
+    border-radius: 10px;
+    grid-template-columns: 340px;
+    grid-template-rows: 340px;
+    row-gap: 30px;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .card {
+    width: 340px;
+    height: 340px;
+  }
+}
+
+/***************************/
+
+@media (min-width: 768px) {
+  body {
+    width: 720px;
+  }
+
+  .nav-main {
+    height: 17px;
+  }
+
+  .nav-main__link {
+    text-transform: capitalize;
+  }
+
+  .banner {
+    height: 131px;
+    margin-top: 29px;
+    justify-content: center;
+    background: linear-gradient(rgba(126, 90, 90, 0.3), rgba(0, 0, 0, 0.3)),
+      url(../assets/img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+  }
+
+  .banner h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    margin-left: 0;
+  }
+
+  .listAppart {
+    background: #f7f7f7;
+    border-radius: 10px;
+    grid-template-columns: 340px 340px;
+    grid-template-rows: 340px;
+    column-gap: 14px;
+    row-gap: 14px;
+    justify-content: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .detailsAppart .container {
+    flex-direction: row;
+  }
+
+  .carrousel span {
+    display: inline;
+  }
+
+  .info_2 {
+    flex-direction: column;
+    align-items: end;
+  }
+
+  .profil {
+    order: 1;
+  }
+
+  .rating {
+    order: 2;
+  }
+
+  .name {
+    width: 93px;
+    font-size: 1.8rem;
+  }
+
+  .stars-container p {
+    width: 20px;
+    height: 20px;
+  }
+
+  .about-banner {
+    margin-top: 22px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    background-image: linear-gradient(
+        rgba(126, 90, 90, 0.3),
+        rgba(0, 0, 0, 0.3)
+      ),
+      url(../assets/gustavo-alves-YOXSC4zRcxw-unsplash_xl.jpg);
+  }
+
+  .about-main .dropdown h2 {
+    font-size: 1.6rem;
+  }
+
+  .about-main .dropdown-content {
+    min-height: inherit;
+  }
+
+  .about-main .dropdown-content p {
+    font-size: 1.4rem;
+    padding-bottom: 20px;
+  }
+}
+
+/***************************/
+
+@media (min-width: 992px) {
+  body {
+    width: 960px;
+  }
+
+  header {
+    height: 56px;
+    margin-top: 25px;
+  }
+
+  .nav-main {
+    height: 20px;
+  }
+
+  .nav-main__link {
+    text-transform: capitalize;
+  }
+
+  .banner {
+    margin-top: 34px;
+    border-radius: 12px;
+  }
+
+  .banner h1 {
+    font-size: 3.4rem;
+  }
+
+  .listAppart {
+    border-radius: 12px;
+    column-gap: 130px;
+    row-gap: 50px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+  }
+
+  .card {
+    width: 340px;
+    height: 340px;
+  }
+
+  .info_3 .dropdown-content {
+    min-height: 163px;
+  }
+
+  .info_1 {
+    margin-top: 15px;
+  }
+
+  .info_1 h1 {
+    font-size: 3rem;
+  }
+
+  .info_1 h2 {
+    font-size: 1.8rem;
+  }
+
+  .info_2 {
+    flex-direction: column;
+    align-items: end;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .info_3 {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .info_3 .dropdown-container {
+    width: 472px;
+  }
+
+  .info_3 .dropdown-content p {
+    font-size: 1.4rem;
+  }
+
+  .info_3 .dropdown-content ul {
+    padding-top: 40px;
+    padding-left: 20px;
+    font-size: 1.4rem;
+  }
+
+  .info_3 .dropdown {
+    height: 52px;
+  }
+
+  .info_3 .dropdown h2 {
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-right: 20px;
+  }
+
+  .arrow {
+    margin-right: 12px;
+  }
+
+  .profil {
+    order: 1;
+  }
+
+  .rating {
+    order: 2;
+  }
+
+  .stars-container p {
+    width: 30px;
+    height: 30px;
+  }
+
+  .name {
+    width: 93px;
+    font-size: 1.8rem;
+  }
+
+  .tag {
+    width: 115px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+}
+
+/***************************/
+
+@media (min-width: 1200px) {
+  body {
+    width: 1140px;
+  }
+
+  .container {
+    width: 1140px;
+  }
+
+  header {
+    height: 62px;
+    margin-top: 36px;
+  }
+
+  .nav-main {
+    height: 31px;
+  }
+
+  .nav-main__link {
+    text-transform: capitalize;
+  }
+
+  .banner {
+    height: 203px;
+    margin-top: 54px;
+    background: linear-gradient(rgba(126, 90, 90, 0.3), rgba(0, 0, 0, 0.3)),
+      url(../assets/img.jpg);
+    border-radius: 23px;
+  }
+
+  .banner h1 {
+    font-size: 4.4rem;
+  }
+
+  .listAppart {
+    border-radius: 23px;
+    grid-template-columns: 340px 340px 340px;
+    column-gap: 30px;
+    row-gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .about-banner {
+    margin-top: 44px;
+    margin-bottom: 31px;
+    background-image: linear-gradient(
+        rgba(126, 90, 90, 0.3),
+        rgba(0, 0, 0, 0.3)
+      ),
+      url(../assets/gustavo-alves-YOXSC4zRcxw-unsplash_xl.jpg);
+    border-radius: 25px;
+  }
+
+  .dropdown-container {
+    margin-bottom: 31px;
+  }
+
+  .dropdown {
+    position: relative;
+    height: 47px;
+  }
+
+  .dropdown h2 {
+    margin-left: 18px;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 142.6%;
+    color: white;
+  }
+
+  .arrow {
+    width: 24px;
+    height: 14px;
+    margin-right: 33px;
+  }
+
+  .dropdown-content {
+    min-height: 146px;
+    margin-top: -5px;
+  }
+
+  .info_3 .dropdown-content {
+    min-height: 249px;
+  }
+
+  .dropdown-content p {
+    padding-top: 30px;
+    padding-left: 18px;
+    font-size: 2.4rem;
+  }
+
+  .info_1 h1 {
+    font-size: 3.6rem;
+  }
+
+  .info_3 .dropdown-container {
+    width: 532px;
+  }
+
+  .info_3 .dropdown-content p {
+    font-size: 1.8rem;
+  }
+
+  .info_3 .dropdown-content ul {
+    font-size: 1.8rem;
+  }
+}
+
+/***************************/
+
+@media (min-width: 1400px) {
+  body {
+    width: 1240px;
+  }
+
+  header {
+    margin-top: 40px;
+  }
+
+  .banner {
+    height: 223px;
+    margin-top: 63px;
+    border-radius: 25px;
+  }
+
+  .banner h1 {
+    font-size: 4.8rem;
+  }
+
+  .listAppart {
+    column-gap: 60px;
+    row-gap: 50px;
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+}

@@ -1,0 +1,21 @@
+.nav-main {
+  display: flex;
+  justify-content: flex-end;
+  width: clamp(140px, 37.33vw, 309px);
+  height: 17px;
+}
+
+.nav-main__link {
+  display: flex;
+  justify-content: flex-end;
+  width: clamp(71px, 18.93vw, 116px);
+  font-size: clamp(1.2rem, 3.2vw, 2.4rem);
+  line-height: 142.6%;
+  color: #ff6060;
+  text-transform: uppercase;
+}
+
+.nav-main__link:first-child {
+  width: clamp(59px, 15.73vw, 136px);
+  justify-content: flex-start;
+}

@@ -1,0 +1,8 @@
+.stars-container {
+  display: flex;
+}
+
+.stars-container p {
+  width: 15px;
+  height: 15px;
+}

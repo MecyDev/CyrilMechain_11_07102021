@@ -1,0 +1,32 @@
+.error-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: min(42.4vw, 150px);
+  color: #ff6060;
+}
+
+.error-page h1 {
+  font-weight: bold;
+  font-size: clamp(9.6rem, 25.6vw, 28.8rem);
+  line-height: 142.6%;
+}
+
+.error-page p {
+  width: clamp(260px, 69.33vw, 882px);
+  font-weight: 500;
+  font-size: clamp(1.8rem, 4.8vw, 36px);
+  line-height: 142.6%;
+  text-align: center;
+}
+
+.error-page a {
+  display: block;
+  font-weight: 500;
+  font-size: 1.4rem;
+  font-size: clamp(1.4rem, 3.73vw, 18px);
+  line-height: 142.6%;
+  text-decoration-line: underline;
+  margin-top: 133px;
+  margin-bottom: 235px;
+}
