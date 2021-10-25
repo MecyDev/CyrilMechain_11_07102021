@@ -27,7 +27,6 @@ class DetailsAppart extends Component {
         return false
       }
     })
-
     return data
   }
 
@@ -42,7 +41,7 @@ class DetailsAppart extends Component {
   }
 
   render() {
-    if (this.state.data != '') {
+    if (this.state.data.length > 0) {
       return (
         <main className="detailsAppart">
           <Carrousel
