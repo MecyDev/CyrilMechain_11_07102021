@@ -1,10 +1,14 @@
 <div align="center" id="top"> 
-  <img src="" alt="Oc_projet_11" />
+  <img src="https://user-images.githubusercontent.com/29403923/168021262-2adde0b2-a990-42cb-b4d8-cea01a115b9a.png" alt="Oc_projet_11" />
 </div>
 
 # Projet Open Class Rooms #11 - Kasa
 
 This is project 11 of the Open Class Rooms Front-End course. The goal is to create a flat rental website with React.
+
+## Demo
+
+[Kasa](https://naughty-leakey-4a098b.netlify.app/details/f72a452f)
 
 ## Technologies
 
