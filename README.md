@@ -43,7 +43,7 @@ Install dependencies
   npm install
 ```
 
-Start the server on port 3001
+Start the server on port 3000
 
 ```bash
   npm start
