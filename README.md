@@ -11,11 +11,7 @@ This is project 11 of the Open Class Rooms Front-End course. The goal is to crea
 This project is developed with:
 
 - [React with C.R.A](https://pt-br.reactjs.org/)
-- [Styled-components](https://styled-components.com/)
-- [Axios](https://axios-http.com/)
-- [Jsdoc](https://jsdoc.app/)
-- [React-query](https://react-query.tanstack.com/)
-- [Prop-types](https://www.npmjs.com/package/prop-types)
+- [React-router](https://reactrouter.com/)
 
 ## Requirements
 
