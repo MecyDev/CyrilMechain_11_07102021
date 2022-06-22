@@ -8,7 +8,7 @@ This is project 11 of the Open Class Rooms Front-End course. The goal is to crea
 
 ## Demo
 
-- [Kasa](https://naughty-leakey-4a098b.netlify.app/details/f72a452f)
+- [Kasa](https://naughty-leakey-4a098b.netlify.app)
 
 ## Technologies
 
